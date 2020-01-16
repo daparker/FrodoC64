@@ -90,7 +90,7 @@ public abstract class MainActivity extends Activity {
         public void swipeUp() {}};
 	
 	protected void initView(int draw_type) {
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
+	//	requestWindowFeature(Window.FEATURE_NO_TITLE);
         requestWindowFeature(Window.FEATURE_PROGRESS);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN); 
         
